@@ -36,6 +36,8 @@ public class TestMain {
 		 	for (Field field : fields) {
 				System.out.println("field["+field.getName()+"]"+"--["+field.getModifiers()+"]--["+Modifier.PRIVATE+"]--["+field.getType().getSimpleName()+"]");
 			}
+		 	
+		 	System.out.print("sa"+System.getProperty("line.separator")+"55");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
